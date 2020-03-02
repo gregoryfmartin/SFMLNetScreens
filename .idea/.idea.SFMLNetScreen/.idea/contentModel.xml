@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\greg\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\greg\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_SFMLNetScreen.-1048835704.00" t="ExcludeRecursive" />
+    <e p="C:\Users\greg\RiderProjects\SFMLNetScreen" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="SFMLNetScreen" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="AssetManager.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="GameCore.cs" t="Include" />
+        <e p="GameWindow.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="PlayerObject.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SFMLNetScreen.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="SFMLNetScreen.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
