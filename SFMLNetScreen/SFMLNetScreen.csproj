@@ -65,11 +65,16 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="AssetManager.cs" />
+        <Compile Include="Entity.cs" />
         <Compile Include="GameCore.cs" />
         <Compile Include="GameWindow.cs" />
         <Compile Include="PlayerObject.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="SampleScreen.cs" />
+        <Compile Include="Screen.cs" />
+        <Compile Include="ScreenManager.cs" />
+        <Compile Include="ScreenMeta.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />

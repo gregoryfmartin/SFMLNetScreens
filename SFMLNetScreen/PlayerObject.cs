@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using SFML.Graphics;
 using SFML.System;
 using SFML.Window;
 
 namespace SFMLNetScreen {
-    public class PlayerObject : CircleShape {
+    public class PlayerObject : Entity {
         private Dictionary <String, Boolean> MovementStates { get; }
         
         private Vector2f Velocity { get; }
@@ -18,16 +17,6 @@ namespace SFMLNetScreen {
                 {"Down", false}
             };
             this.Velocity = new Vector2f(3.0f, 3.0f);
-        }
-        
-        public PlayerObject (Single radius) : base (radius) {
-            this.MovementStates = new Dictionary <String, Boolean> {
-                {"Left", false},
-                {"Right", false},
-                {"Up", false},
-                {"Down", false}
-            };
-            this.Velocity = new Vector2f (3.0f, 3.0f);
         }
 
         public void CheckInputPressed (KeyEventArgs e) {
@@ -71,7 +60,7 @@ namespace SFMLNetScreen {
         /// predictable. There's definitely a better way of doing this, but I'm unsure what it would be at the moment.
         /// </summary>
         /// <param name="delta">The time between frames, taken from the main game loop through a multidelegate.</param>
-        public void Update (Single delta) {
+        public override void Update (Single delta) {
             if (this.MovementStates ["Right"]) {
                 this.Position += new Vector2f (this.Velocity.X * (delta * 100), 0.0f);
             }

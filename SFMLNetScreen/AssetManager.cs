@@ -5,7 +5,7 @@ using System.IO.Compression;
 using SFML.Graphics;
 
 namespace SFMLNetScreen {
-    internal sealed class AssetManager {
+    public class AssetManager {
         public Dictionary <String, Texture> LibraryTextures { get; }
 
         public AssetManager () {

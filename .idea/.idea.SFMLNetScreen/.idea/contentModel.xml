@@ -9,6 +9,7 @@
         <e p=".gitignore" t="Include" />
         <e p="AssetManager.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Entity.cs" t="Include" />
         <e p="GameCore.cs" t="Include" />
         <e p="GameWindow.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
@@ -18,6 +19,10 @@
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
+        <e p="SampleScreen.cs" t="Include" />
+        <e p="Screen.cs" t="Include" />
+        <e p="ScreenManager.cs" t="Include" />
+        <e p="ScreenMeta.cs" t="Include" />
         <e p="SFMLNetScreen.csproj" t="IncludeRecursive" />
       </e>
       <e p="SFMLNetScreen.sln" t="IncludeFlat" />
